@@ -1,9 +1,9 @@
-project: chethiya
+project: bhagya
 components:
   - name: spring-app
     os: linux
     repository:
-      git: git@github.com:chethiya1996/spring-boot.git
+      git: git@github.com:bugz28/spring-boot.git
       branch: master
     build:
       - shell: sudo mkdir -p /app
