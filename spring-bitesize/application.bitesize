@@ -1,4 +1,4 @@
-project: chethiya
+project: bhagya
 applications:
   - name: spring-app
     runtime: ubuntu-jdk8:1.0
