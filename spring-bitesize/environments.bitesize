@@ -1,22 +1,13 @@
-project: chethiya
+project: bhagya
 environments:
   - name: dev
-    namespace: chethiya-dev
+    namespace: bhagya-dev
     deployment:
       method: rolling-upgrade
     services:
       - name: spring-app
-        external_url: chethiya-spring.prsn.io
+        external_url: bhagya-spring.prsn.dev-prsn.io
         port: 8080
         ssl: "false"
         replicas: 2
-  - name: prd
-    namespace: chethiya-prd
-    deployment:
-      method: rolling-upgrade
-    services:
-      - name: spring-app
-        external_url: chethiya-spring-prd.prsn.io
-        port: 8080
-        ssl: "false"
-        replicas: 2  
+  
